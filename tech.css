@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  overflow: hidden;
+  padding: 0 20px;
+  background: #17a2b8;
+}
+::selection{
+  background: rgba(23,162,184,0.3);
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+.Imgspace{
+    margin: 0.5%;
+    border-color: black;
+    border-radius: 5px;
+}
+button{
+    position: relative;
+    color: #206592;
+    height: 65px;
+    width: 210px;
+    margin: 0 72px;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    background: #ce2c2c;
+    overflow: hidden;
+    transition: 0.6s;
+  }
+  button:first-child{
+    color: #000000;
+    border-color: #206592;
+  }
+  button:last-child{
+    color: #000000;
+    border-color: #206592;
+  }
+  button:before, button:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    filter: blur(30px);
+    opacity: 0.4;
+    transition: 0.6s;
+  }
+  button:before{
+    width: 60px;
+    background: rgba(255,255,255,0.6);
+    transform: translateX(-130px) skewX(-45deg);
+  }
+  button:after{
+    width: 30px;
+    background: rgba(255,255,255,0.6);
+    transform: translateX(-130px) skewX(-45deg);
+  }
+  button:hover:before,
+  button:hover:after{
+    opacity: 0.6;
+    transform: translateX(320px) skewX(-45deg);
+  }
+  button:hover{
+    color: #f2f2f2;
+  }
+  button:hover:first-child{
+    background: #206592;
+  }
+  button:hover:last-child{
+    background: #ce5c0c;
+  }
+.wrapper{
+  max-width: 1600px;
+  height: 900px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 25px 30px 30px 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.wrapper header{
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.wrapper nav{
+  position: relative;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.wrapper nav label{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #17a2b8;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+.wrapper nav label:hover{
+  background: rgba(23,162,184,0.3);
+}
+#home:checked ~ nav label.home,
+#blog:checked ~ nav label.blog,
+#code:checked ~ nav label.code,
+#help:checked ~ nav label.help,
+  #about:checked ~ nav label.about{
+  color: #260808;
+}
+nav label i{
+  padding-right: 7px;
+}
+nav .slider{
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: #17a2b8;
+  transition: all 0.3s ease;
+}
+input[type="radio"]{
+  display: none;
+}
+#blog:checked ~ nav .slider{
+  left: 20%;
+}
+#code:checked ~ nav .slider{
+  left: 40%;
+}
+#help:checked ~ nav .slider{
+  left: 60%;
+}
+#about:checked ~ nav .slider{
+  left: 80%;
+}
+section .content{
+  display: none;
+  background: #fff;
+}
+#home:checked ~ section .content-1,
+#blog:checked ~ section .content-2,
+#code:checked ~ section .content-3,
+#help:checked ~ section .content-4,
+#about:checked ~ section .content-5{
+  display: block;
+}
+section .content .title{
+  font-size: 21px;
+  font-weight: 500;
+  margin: 30px 0 10px 0;
+}
+section .content p{
+text-align: justify;
+}
