@@ -19,7 +19,7 @@ Our Features include:
 6.We have provided the Join Us section so that you can join us and get empowered in Technology.
 
 
-
+Ppt link:https://docs.google.com/presentation/d/1o-IOABClw8dcDteh6dtvrH9fnxgNaXdB/edit?usp=sharing&ouid=105175761715929402734&rtpof=true&sd=true
 
 
 
