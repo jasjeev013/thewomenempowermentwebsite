@@ -1,4 +1,4 @@
-# thewomenempowermentwebsite
+# WeTech: Women Empowerment Website
 This is a website for helping and guiding the women in tech
 
 Our Website:
