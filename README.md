@@ -1,27 +1,32 @@
 # WeTech: Women Empowerment Website
-This is a website for helping and guiding the women in tech
 
-Our Website:
-We have created a website called WETech.
+This is a website dedicated to helping and empowering women in the tech industry.
 
-Our Features include:
+## Our Website
 
-1.Providing them tech resources of different languages such as HTML,CSS,Python,Javascript,Java 
+We have created a website called WeTech that provides various resources and support for women in tech.
 
-2.Providing them information about various scholarships along with the links.
+## Features
 
-3.Providing them information about various programs that supports women along with their links.
+Our website offers the following features:
 
-4.We have provide the information of various coding contest along with their links.
+1. Tech Resources: We provide resources for different programming languages such as HTML, CSS, Python, JavaScript, and Java.
 
-5.We have provided the Tutorial ink of various languages along with their links.
+2. Scholarships: We provide information about various scholarships available for women in tech, along with the links to apply.
 
-6.We have provided the Join Us section so that you can join us and get empowered in Technology.
+3. Programs: We provide information about various programs that support women in tech, along with their links.
 
+4. Coding Contests: We list various coding contests that women can participate in, along with the links to register.
 
-Ppt link:https://docs.google.com/presentation/d/1o-IOABClw8dcDteh6dtvrH9fnxgNaXdB/edit?usp=sharing&ouid=105175761715929402734&rtpof=true&sd=true
+5. Tutorials: We provide tutorial links for various programming languages to help women enhance their skills.
 
+6. Join Us: We have a section where women can join our community and get empowered in technology.
 
+## Presentation
+
+You can find our presentation [here](https://docs.google.com/presentation/d/1o-IOABClw8dcDteh6dtvrH9fnxgNaXdB/edit?usp=sharing&ouid=105175761715929402734&rtpof=true&sd=true).
+
+## Screenshots
 
 ![1](https://user-images.githubusercontent.com/110547728/229336289-76ecbc31-85e8-415f-a075-f862dafc0693.png)
 ![2](https://user-images.githubusercontent.com/110547728/229336312-d4f13c56-6419-487d-81cb-7c5dee56f6c0.png)
